@@ -35,10 +35,12 @@
 - ...
 
 # fnn.py
-- ...
+- Feed forward Neural Network based on the raw data file
+- Uses pytorch for most of the heavy lifting
+- MSE loss function
   
 # fnn_cross_entropy.py
-- ...
+- Cross entopy loss function
   
 # decision_tree.py
 - contains both the random forest and id3 classifier
