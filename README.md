@@ -1,4 +1,4 @@
-# README IS CURRENTLY OUTDATED, LOOK AT raw_data.csv AND construct_raw.py FOR PROJECT DETAILS
+# F1 Racing Prediction
 
 ## CURRENT CONTENTS OF THE REPO:
 
@@ -30,3 +30,16 @@
 
 # finaltime.py
 - transformed "F1_qualtime.csv" into "F1_racetime.csv"
+
+# construct_raw.py
+- ...
+
+# fnn.py
+- ...
+  
+# fnn_cross_entropy.py
+- ...
+  
+# decision_tree.py
+- contains both the random forest and id3 classifier
+
