@@ -32,7 +32,12 @@
 - transformed "F1_qualtime.csv" into "F1_racetime.csv"
 
 # construct_raw.py
-- ...
+- **Data Loading**: Reads multiple F1 datasets (results, constructors, races, circuits, drivers, status, qualifying, driver standings, pit stops) into DataFrames.
+- **Data Merging**: Combines these datasets to include detailed race, driver, constructor, and circuit information.
+- **Column Renaming**: Clarifies data by renaming columns (e.g., `date` to `raceDate`, `position` to `finishPos`).
+- **Feature Engineering**: Calculates historical performance metrics (e.g., points and wins before races, recent placements, seasonal averages, circuit-specific averages, driver age at race, position changes).
+- **Pit Stop Data**: Integrates pit stop data, calculating average number and time of pit stops.
+- **Final Adjustments**: Filters data for races from 2011 onwards and saves the final DataFrame to `raw_data_with_pit_stops.csv`.
 
 # fnn.py
 - Feed forward Neural Network based on the raw data file
